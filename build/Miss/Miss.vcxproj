@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\source\Miss.c" />
+    <ClCompile Include="..\..\source\Hit.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{06393F4A-4A01-4BAF-9889-9A13ECC6945F}</ProjectGuid>
+    <ProjectGuid>{0892A398-311B-46DC-B733-E72CE1C7063C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Cache</RootNamespace>
-    <ProjectName>Miss</ProjectName>
+    <ProjectName>Hit</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -77,8 +77,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>$(SolutionDir)..\build\Miss\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)..\bin\Miss\</OutDir>
+    <IntDir>$(SolutionDir)..\build\Hit\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\bin\Hit\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -87,8 +87,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>$(SolutionDir)..\build\Miss\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)..\bin\Miss\</OutDir>
+    <IntDir>$(SolutionDir)..\build\Hit\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\bin\Hit\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

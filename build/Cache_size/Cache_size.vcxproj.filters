@@ -6,7 +6,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\source\Cache_size.c">
+    <ClCompile Include="..\..\source\Cache_size.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

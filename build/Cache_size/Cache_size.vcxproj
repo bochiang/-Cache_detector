@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\source\Cache_size.c" />
+    <ClCompile Include="..\..\source\Cache_size.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C5972826-217C-4D06-AA70-1D383BD7FB8D}</ProjectGuid>

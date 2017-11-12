@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\source\Miss.c" />
+    <ClCompile Include="..\..\source\Block_size.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{06393F4A-4A01-4BAF-9889-9A13ECC6945F}</ProjectGuid>
+    <ProjectGuid>{E91B5F66-E817-4506-BC73-20E9587920DB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Cache</RootNamespace>
-    <ProjectName>Miss</ProjectName>
+    <ProjectName>Block_size</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -72,23 +72,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>$(SolutionDir)..\build\Hit\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)..\bin\Hit\</OutDir>
+    <IntDir>$(SolutionDir)..\build\Cache_size\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\bin\Cache_size\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>$(SolutionDir)..\build\Miss\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)..\bin\Miss\</OutDir>
+    <IntDir>$(SolutionDir)..\build\Block_size\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\bin\Block_size\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>$(SolutionDir)..\build\Hit\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)..\bin\Hit\</OutDir>
+    <IntDir>$(SolutionDir)..\build\Cache_size\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\bin\Cache_size\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>$(SolutionDir)..\build\Miss\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)..\bin\Miss\</OutDir>
+    <IntDir>$(SolutionDir)..\build\Block_size\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\bin\Block_size\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

@@ -6,7 +6,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\source\Miss.c">
+    <ClCompile Include="..\..\source\Hit.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
